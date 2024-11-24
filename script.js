@@ -33,7 +33,7 @@ function toggle() {
     moon.style.display = 'none';
     sun.style.display = 'block';
     menuBtn.style.color = 'white';
-    page1.style.backgroundImage = 'url(./Images/Swat-River-Night.jpg)';
+    page1.style.backgroundImage = 'url(./images/Swat-River-Night.jpg)';
     page1.style.backgroundPosition = '50% 100%';
     page1.style.transition = "0.5s";
     body.style.backgroundColor = '#222';
@@ -71,7 +71,7 @@ function toggle() {
     moon.style.display = 'block';
     sun.style.display = 'none';
     menuBtn.style.color = 'black';
-    page1.style.backgroundImage = 'url(./Images/Swat-River.jpg)';
+    page1.style.backgroundImage = 'url(./images/Swat-River.jpg)';
     page1.style.backgroundPosition = '50% 20%';
     body.style.backgroundColor = 'white';
     websiteName.style.color = 'white';
