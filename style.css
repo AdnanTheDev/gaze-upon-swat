@@ -9,7 +9,7 @@
   box-sizing: border-box;
   color: white;
   font-family: 'ubuntu', sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
 }
 
@@ -160,7 +160,7 @@ nav {
 }
 
 .lower-nav {
-  display: grid;
+  display: none;
   grid-template-columns: auto auto;
   align-items: center;
   text-align: center;
@@ -173,6 +173,7 @@ nav {
   flex-direction: column;
   min-height: 60vh;
   width: 100%;
+  margin-top: 40px;
   position: relative;
   isolation: isolate;
   background-image: url(./images/Swat-River.jpg);
@@ -206,6 +207,7 @@ h1 {
   text-align: center;
   width: 100%;
   text-shadow: 10px 10px 50px lightseagreen;
+  text-transform: uppercase;
 }
 
 .sub-heading {
@@ -261,7 +263,7 @@ h1 {
   background-clip: text;
   text-align: center;
   font-size: 50px;
-  margin-top: 100px;
+  margin-top: 10px;
   background-position: 60% 15%;
 }
 
@@ -284,6 +286,7 @@ h1 {
   height: 450px;
   width: 310px;
   border-radius: 10px;
+  margin-top: 100px;
 }
 
 #page3 {
@@ -317,15 +320,19 @@ h1 {
 }
 
 .place {
+  display: flex;
+  flex-direction: column;
   background-color: lightseagreen;
   text-align: center;
   border-radius: 10px;
+  width: 300px;
 }
 
 .place-name {
-  font-size: 25px;
+  font-size: 23px;
+  /* border: 2px solid red; */
   font-weight: 500;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .see-all {
@@ -535,6 +542,10 @@ footer {
   .lakes-container {
     grid-template-columns: auto auto;
   }
+
+  .menu {
+    color: white;
+  }
 }
 
 @media (min-width: 769px) {
@@ -542,6 +553,10 @@ footer {
     padding: 15px 0;
     /* border-bottom: 2px solid black; */
     padding: auto;
+  }
+
+  .lower-nav {
+    display: grid;
   }
 
   #search-bar {
